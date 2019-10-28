@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+  <html>
+      <head>
+          <style>
+              html{
+
+              }
+              *{
+                  padding:0;
+                  margin:0;
+              }
+              canvas#game{
+                  padding-left: 0;
+                  padding-right: 0;
+                  margin-left: auto;
+                  margin-right: auto;
+                  display: block;
+}
+          </style>
+
+          <link type="text/css" rel="stylesheet" href="/static/css/materialize.min.css"  media="screen,projection"/>
+          <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+
+          <link href="/static/css/toastr.min.css" rel="stylesheet">
+          <script type="text/javascript" src="/static/js/jquery.js"></script>
+          <script type="text/javascript" src="/static/js/materialize.min.js"></script>
+          
+      </head>
+      <body>
+
+  <nav>
+    <div class="nav-wrapper blue darken-2">
+      <a href="#" class="brand-logo center">Calculus Climber</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li class="active"><a href="#">Game</a></li>
+        <li><a href="badges.html">Presentation</a></li>
+        <li><a href="collapsible.html">Paper</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Question</h4>
+  <form action="#">
+    <p id="loadedQuestion"></p><br>
+    <p>
+      <label>
+        <input name="group1" type="radio"/>
+        <span id="answer1"></span>
+      </label>
+    </p>
+<br>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span id="answer2">Yellow</span>
+      </label>
+    </p>
+<br>
+    <p>
+      <label>
+        <input class="with-gap" name="group1" type="radio"  />
+        <span id="answer3">Green</span>
+      </label>
+    </p>
+<br>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span id="answer4">Brown</span>
+      </label>
+    </p>
+  </form>
+
+      </div>
+      <div class="modal-footer">
+        <a href="#!" onclick="modalActive = false; check(modalActive);" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+      </div>
+    </div>
+          <img id="backdrop" src="/static/assets/backdrop.png" style="display:none;">
+          <img id="grid" src="/static/assets/grid.png" style="display:none;">
+          <img id="player1" src="/static/assets/char1.png" style="display:none;">
+          <img id="player2" src="/static/assets/char2.png" style="display:none;">
+
+          <img id="boost" src="/static/assets/boost.png" style="display:none;">
+          <img id="question" src="/static/assets/question.png" style="display:none;">
+          <img id="questionDeactivated" src="/static/assets/question_deactivated.png" style="display:none;">
+          <div style="width:100vw;height:90%;"><canvas id="game" style="object-fit:cover;height:100%;max-height:100vh;width:auto;max-width:100vw;" height="720" width="1280"></canvas></div>
+
+
+<script>
+           $( document ).ready(function() {
+             window.scrollTo(0,document.body.scrollHeight);
+           });
+           </script>
+
+
+        <script src="/static/js/socket.io.js"></script>
+          <script src="/static/js/toastr.min.js"></script>
+          <script src="/static/js/gravity.js"></script>
+          <script src="/static/js/controller.js"></script>
+          <script>
+
+
+
+
+          var joystick = new VirtualJoystick()
+
+          function testVirtualJoystick(){
+			if(joystick.up()){up();}
+            if(joystick.right()){
+              right(true);
+            }
+            if(joystick.left()){
+              left(true);
+            }
+          }
+
+          </script>
+          
+  
+
+
+      </body>
+</html>

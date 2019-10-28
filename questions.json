@@ -1,0 +1,194 @@
+[
+ {
+   "id": "1",
+   "q": "a = 5; find [d/dx] of 3a",
+   "a1": "0",
+   "a2": "3",
+   "a3": "1/2x",
+   "a4": "2"
+ },
+ {
+   "id": "2",
+   "q": "Find [d/dx] of 5x - 4 ",
+   "a1": "5",
+   "a2": "-5",
+   "a3": "4",
+   "a4": "5 dy/dx"
+ },
+ {
+   "id": "3",
+   "q": "Find [d/dx] of 1/2 * x  * x",
+   "a1": "x",
+   "a2": "x^(1/2)",
+   "a3": "x^-(1/2)",
+   "a4": "0"
+ },
+ {
+   "id": "4",
+   "q": "What's the derivative of sinx? ",
+   "a1": "cosx",
+   "a2": "-cosx",
+   "a3": "(1+cos^2(x))^2",
+   "a4": "(1-cos^2(x))^2"
+ },
+ {
+   "id": "5",
+   "q": "What's the derivative of tanx? ",
+   "a1": "sec^2(x) ",
+   "a2": "tanxcotx",
+   "a3": "cscx",
+   "a4": "-csc(x) "
+ },
+ {
+   "id": "6",
+   "q": "What's the derivative of secx? ",
+   "a1": "secxtanx",
+   "a2": "1/sec^2(x) ",
+   "a3": "-1/csc^2(x) ",
+   "a4": "cscxcotx"
+ },
+ {
+   "id": "7",
+   "q": "What's the derivative of cosx? ",
+   "a1": "-sinx",
+   "a2": "sinx",
+   "a3": "(1+sin^2(x))^2",
+   "a4": "(1-sin^2(x))^2"
+ },
+ {
+   "id": "8",
+   "q": "What's the derivative of cotx? ",
+   "a1": "-csc^2(x) ",
+   "a2": "sec^2(x) ",
+   "a3": "secxtanx",
+   "a4": "-1/csc^2(x) "
+ },
+ {
+   "id": "9",
+   "q": "What's the derivative of cscx? ",
+   "a1": "-cscxcotx",
+   "a2": "secxtanx",
+   "a3": "sec^2(x) ",
+   "a4": "-1/csc^2(x) "
+ },
+ {
+   "id": "10",
+   "q": "What's the integral of velocity?",
+   "a1": "Position",
+   "a2": "Speed",
+   "a3": "Acceleration",
+   "a4": "Magnitude"
+ },
+ {
+   "id": "11",
+   "q": "What's the derivative of velocity?",
+   "a1": "Acceleration",
+   "a2": "Speed",
+   "a3": "Position",
+   "a4": "Magnitude"
+ },
+ {
+   "id": "12",
+   "q": "What's the derivative of y = 2ln(2x+1) ",
+   "a1": "4/(x+1) ",
+   "a2": "2/x+1 ",
+   "a3": "(x+1)^-1",
+   "a4": "Doesn't exist"
+ },
+ {
+   "id": "13",
+   "q": "What is d/dx arcsin(x)",
+   "a1": "1/(1-x^2)^(1/2)",
+   "a2": "1/(1+x^2) ",
+   "a3": "-1/(1-x^2)^(1/2)",
+   "a4": "-1/(|x|(x^2-1)^(1/2))"
+ },
+ {
+   "id": "14",
+   "q": "What is d/dx arccos(x)",
+   "a1": "-1/(1-x^2)^(1/2)",
+   "a2": "1/(1+x^2) ",
+   "a3": "1/(1-x^2)^(1/2)",
+   "a4": "-1/(|x|(x^2-1)^(1/2))"
+ },
+ {
+   "id": "15",
+   "q": "What is d/dx arctan(x)",
+   "a1": "1/(1+x^2) ",
+   "a2": "-1/(|x|(x^2-1)^(1/2))",
+   "a3": "1/(|x|(x^2-1)^(1/2))",
+   "a4": "-1/(1+x^2) "
+ },
+ {
+   "id": "16",
+   "q": "What is d/dx arccot(x)",
+   "a1": "-1/(1+x^2) ",
+   "a2": "1/(1+x^2) ",
+   "a3": "-1/(1-x^2)^(1/2)",
+   "a4": "1/(1-x^2)^(1/2)"
+ },
+ {
+   "id": "17",
+   "q": "What is d/dx arcsec(x)",
+   "a1": "1/(|x|(x^2-1)^(1/2))",
+   "a2": "1/(1+x^2) ",
+   "a3": "-1/(1-x^2)^(1/2)",
+   "a4": "1/(1-x^2)^(1/2)"
+ },
+ {
+   "id": "18",
+   "q": "What is d/dx arccsc(x)",
+   "a1": "-1/(|x|(x^2-1)^(1/2))",
+   "a2": "1/(1+x^2) ",
+   "a3": "1/(|x|(x^2-1)^(1/2))",
+   "a4": "-1/(1-x^2)^(1/2)"
+ },
+ {
+   "id": "19",
+   "q": "What's the tangent line of 3x at the point (2,5) ",
+   "a1": "y-5 = 3(x-2) ",
+   "a2": "y-2 = 3(x-5) ",
+   "a3": "y = 2(3x-5) + 2",
+   "a4": "y-5 = -1/3(x-2) "
+ },
+ {
+   "id": "20",
+   "q": "What's the normal line of 3x at the point (2,5) ",
+   "a1": "y-5 = -1/3(x-2) ",
+   "a2": "y-2 = 3(x-5) ",
+   "a3": "y = 2(3x-5) + 2",
+   "a4": "y-5 = 3(x-2) "
+ },
+ {
+   "id": "21",
+   "q": "What's the integral of 2x",
+   "a1": "(2x^3)/3 + c",
+   "a2": "2",
+   "a3": "x",
+   "a4": "(2x^3)/3 "
+ },
+ {
+   "id": "22",
+   "q": "Derivative of 1/x",
+   "a1": "-1/x^2",
+   "a2": "ln(x)",
+   "a3": "x^-1",
+   "a4": "x^0 = 1"
+ },
+ {
+   "id": "23",
+   "q": "Derivative of e^2x",
+   "a1": "2e^2x",
+   "a2": "e^2x",
+   "a3": "e^2",
+   "a4": "2"
+ },
+ {
+   "id": "24",
+   "q": "Which isn't an indeterminate value, in relation to El Hospital's Rule. ",
+   "a1": "1 / 0",
+   "a2": "0 / 0",
+   "a3": "infinity / infinity",
+   "a4": "1 ^ infinity"
+ }
+]

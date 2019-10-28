@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculus Project</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/materialize.min.css">
+
+</head>
+
+<body>
+  <img id="player" src="assets/char1.png" width="32" height="32">
+  <img id="player2" src="assets/char2.png" width="32" height="32">
+  <img id="grid" src="assets/grid.png" width="32" height="32">
+  <img id="backdrop" src="assets/backdrop.png" width="32" height="32">
+  <div class="row">
+  <div class="col s6">
+    <div class="test" style="width:528px;height:768px;">
+      <canvas id="game" width="480" height="720" style="margin:24px;">
+    </div>
+  </div>
+  <div class="col s6">
+    <div class="test" style="width:528px;height:768px;">
+      <canvas id="otherPlayer" width="480" height="720" style="margin:24px;">
+    </div>
+  </div>
+</div>
+    <script  src="js/socket.io.js"></script>
+    <script  src="js/otherPlayer.js"></script>
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

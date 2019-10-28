@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+* {
+    box-sizing: inline-block;
+}
+
+canvas{
+  background-image: url('file:///C:/Users/Payton/Desktop/game-loop-in-javascript-dealing-with-user-input/assets/backdrop.png');
+  height:auto;
+
+}
+.test{
+  background-image: url('file:///C:/Users/Payton/Desktop/game-loop-in-javascript-dealing-with-user-input/assets/grid.png');
+}
