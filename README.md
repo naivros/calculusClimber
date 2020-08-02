@@ -16,6 +16,11 @@ While I was a Junior in Highschool, I was tasked with a final project for AP Cal
 
 - This is a 2-player multiplayer race, which is how I presented it to my class, it was one of the best presentations that I have ever given, and the project I am most proud of. If you'd like to play without Calculus level questions. Use the room code, `"s3cr3t"`, it'll skip the question spawning loop. 
 
+### Main Gameloop file 
+https://github.com/naivros/calculusClimber/blob/master/public/js/gravity.js
+### Main Server file
+https://github.com/naivros/calculusClimber/blob/master/index.js
+### Demo
 http://game.l1tt.cc/ 
 
 Thanks,
