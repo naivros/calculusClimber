@@ -8,7 +8,7 @@ While I was a Junior in Highschool, I was tasked with a final project for AP Cal
  - HTML5 (Internal Game Engine) 
  - MaterializeCSS
  - Jquery
- - Node.js
+ - Node.js (Express.js) 
  - Sockets.io
  
 ## Goals
